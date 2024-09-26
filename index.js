@@ -34,7 +34,7 @@ document.getElementById("plansection").appendChild(para);}
       text.style.display = "block";
         
     } else {
-       text.style.display = "none";
+       text.style.display = "";
     }
   }
   function thirdfunction() {
