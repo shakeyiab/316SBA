@@ -1,0 +1,8 @@
+Iterate over a collection of elements to accomplish some task.
+ tak mini quix to determine best phone
+ nv bar phones , tablets , accesories 
+ <div>
+<h1>history of iphones</h1>
+    <p id="demo"></p>
+
+    </div>
