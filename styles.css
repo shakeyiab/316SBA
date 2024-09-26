@@ -1,18 +1,35 @@
 .firstsec{
    text-align: center;
+ ;
 }
 .action{
     text-align: right;
-    
+ 
 }
     #demo{
         color:red ;
     }
 #plansection{
     text-align:center;
-    margin-top:"500px";
+   
+    
 }
 .thirdsec{
     text-align: right;
+    
+}
+.navbar{
+    
+  
+}
+body {
+    background-image: url("giphy\ \(1\).gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.secondsec{
+    display: inline-flex;
     
 }

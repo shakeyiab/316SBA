@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="index.js"></script>
-    <title>Phones4All</title>
+    <title>iPhones4All</title>
 </head>
 
-<div class="navbar"> <!-- nav bar class  -->
-    <a href="" class="w3-bar-item w3-button">Get Started </a><!-- nav bar for homepage  -->
-    <a style="padding: 12px" href="" class="w3-bar-item w3-button">Tablets</a> <!-- nav bar for Sign UP  -->
-    <a style="padding: 12px" href="" class="w3-bar-item w3-button">Internet</a><!-- nav bar to log in  -->
-    <a style="padding: 12px" href="" class="w3-bar-item w3-button">Prepaid</a><!-- nav bar to log in  -->
-    <a style="padding: 12px" href="" class="w3-bar-item w3-button">How it works</a><!-- nav bar to log in  -->
+<div style="margin-bottom:0px;" class="navbar"> <!-- nav bar class  -->
+    <a href="" class="w3-bar-item w3-button">Pay Bill </a><!-- nav bar to Pay Bill  -->
+    <a style="padding: 12px;" href="" class="w3-bar-item w3-button">iPads</a> <!-- nav bar for iPads  -->
+    <a style="padding: 12px" href="" class="w3-bar-item w3-button">iPhone</a><!-- nav bar to iPhone  -->
+    <a style="padding: 12px" href="" class="w3-bar-item w3-button">iPhone</a><!-- nav bar to Prepaid  -->
+    <a style="padding: 12px" href="" class="w3-bar-item w3-button">How it works</a><!-- nav bar to show How it works  -->
     
-    <a style="padding: 325px;" class="active" href=""></a>
+    
 </div>
+<!-- search bar creation with 1st event listener -->
 <div class="action">
     <input type="text" placeholder="Search..">
     <button id="button" onclick="funtionforbtn()">submit</button>
@@ -24,29 +25,35 @@
 
 <div class="firstsec">
 
-<h1>Welcome to Phones4All</h1>
-<p> where you can keep in touch with family members for little to nothing</p>
+<h1>Welcome to iPhones4All</h1>
+<p style="color: white;"> <b>Shop Our Best iPhone Deals  Today <br> Keep Your Number <br> Save With One Click</p>
 </div>
 
 <body>
+
+<!-- just a button to choose a plan, 2nd event listener is called to show window alert advising the client will be leaving the screen -->
 <div id="plansection">
-    <h1 style="margin-top: 100px;">choose a plan </h1>
+    <h1 style="font-family: fantasy;">PLANS LOW AS $35 A MONTH </h1>
     <button id="button2"onclick="funtionforbtn2()">choose a plan</button>
 </div>
 
 <div class="secondsec">
-
+<div class="iphonestat>"</div>
 <h1></h1>
 <p>team iphone</p>
 <label  for="checkbox"></label> 
 <input type="checkbox" id="iphonestat" onclick="secondfunction()">
 <p id="text" style="display:none">We Love Iphones</p>
 <p> see the evoluntion of iphones</p>
+<p id="evoluntion"></p>
+<img src="OIP (2).jfif" alt="Girl in a jacket" width="250" height="260">
 <p></p>
 </div>
-<div>
+
+
+<div class="androidlover">
     <h1></h1>
-    <p>team andriond</p>
+    <p style="text-align: right;">team ANDROID</p>
 <label  for="checkbox"></label> 
 <input type="checkbox" id="androidlover" onclick="thirdfunction()">
 <p id="times" style="display:none">r u sure</p> 

@@ -9,14 +9,14 @@ let newelement=document.createElement("newelement")
 //Use the parent-child-sibling relationship to navigate between elements at least once 
 //(firstChild, lastChild, parentNode, nextElementSibling, etc.).
 const parent= document.querySelector("#plansection");
-parent.parentNode.style.color = "red";
+parent.parentNode.style.color = "navy";
 //Iterate over a collection of elements to accomplish some task  ,, to print out evolution of iphones 
 let text=[];
 for (let x = 3; x < 7; x++) {
-   text += "iphone"  + x  
+   text += "iphone"  + x + ",  " 
    
 }
-document.getElementById("demo").innerHTML = text;
+document.getElementById("evoluntion").innerHTML = text;
 //"iphone" + x
 //Use appendChild and/or prepend to add new elements to the DOM.
 function myFunction() { 
@@ -57,12 +57,12 @@ document.getElementById("plansection").appendChild(para);}
  // Modify the HTML or text content of at least one element in
  // response to user interaction using innerHTML, innerText, or textContent.
  //Register at least two different event listeners and create the associated event handler functions.
- const action= document.getElementById("button");
- button.addEventListener("mouseover",funtionforbtn)
+ const action= document.getElementsById("button");
+ button.addEventListener("onmouseover",funtionforbtn)
  function funtionforbtn() {
     document.getElementById("button").innerHTML = "Please Wait";
   }
-  button2.addEventListener("click",funtionforbtn2)
+  button2.addEventListener("",funtionforbtn2)
   function funtionforbtn2() {
     alert("Are You Sure You Want To Leave This Page")
   }
