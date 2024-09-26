@@ -37,8 +37,17 @@ document.getElementById("plansection").appendChild(para);}
        text.style.display = "none";
     }
   }
-  
-    
+  function thirdfunction() {
+    let checkBox = document.getElementById("androidlover");
+    let times = document.getElementById("times");
+    if (checkBox.checked == true){
+        times.style.display = "block";
+        
+    } else {
+        times.style.display = "none";
+    }
+  }
+
  // Modify the HTML or text content of at least one element in
  // response to user interaction using innerHTML, innerText, or textContent.
  //Register at least two different event listeners and create the associated event handler functions.
@@ -51,6 +60,6 @@ document.getElementById("plansection").appendChild(para);}
   function funtionforbtn2() {
     alert("Are You Sure You Want To Leave This Page")
   }
-
+//Modify at least one attribute of an element in response to user interaction.
  
 
