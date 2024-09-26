@@ -13,7 +13,7 @@ parent.parentNode.style.color = "red";
 //Iterate over a collection of elements to accomplish some task  ,, to print out evolution of iphones 
 let text=[];
 for (let x = 3; x < 7; x++) {
-   text += "iphone"  + x +"," 
+   text += "iphone"  + x  
    
 }
 document.getElementById("demo").innerHTML = text;
@@ -34,15 +34,21 @@ document.getElementById("plansection").appendChild(para);}
       text.style.display = "block";
         
     } else {
-       text.style.display = "";
+       text.style.display = "none";
     }
   }
   function thirdfunction() {
+  
     let checkBox = document.getElementById("androidlover");
     let times = document.getElementById("times");
     if (checkBox.checked == true){
         times.style.display = "block";
-        
+        //Modify at least one attribute of an element in response to user interaction.
+        let x = document.createElement("IMG")
+        x.setAttribute("src", "OIP.jfif");
+        document.body.appendChild(x);
+        document.getElementById("and").innerHTML = 
+"Page is for iphone users only " + window.location.hostname;
     } else {
         times.style.display = "none";
     }
