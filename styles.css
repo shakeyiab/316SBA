@@ -1,54 +1,54 @@
 .firstsec{
-   text-align: center;
- ;
-}
-.action{
-    text-align: right;
- 
-}
-    #demo{
-        color:red ;
-    }
-#plansection{
-    text-align:center;
-   
-    
-}
-.thirdsec{
-    text-align: right;
-    
-}
-.navbar{
-    
+    text-align: center;
+  ;
+ }
+ .action{
+     text-align: right;
   
-}
-body {
-    background-image: url("giphy\ \(1\).gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-}
-
-.secondsec{
-        display: flex;
-        color: rgb(255, 0, 221);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      .secondsec > div {
-        width:33%;
-      }
-      .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 40%;
-        color: navy;
-      }
-      
-      .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
-      
-      .container {
-        padding: 2px 16px;
-      }
+ }
+     #demo{
+         color:red ;
+     }
+ #plansection{
+     text-align:center;
     
+     
+ }
+ .thirdsec{
+     text-align: right;
+     
+ }
+ .navbar{
+     
+   
+ }
+ body {
+     background-image: url("giphy\ \(1\).gif");
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover;
+ }
+ 
+ .secondsec{
+         display: flex;
+         color: rgb(107, 5, 94);
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       .secondsec > div {
+         width:33%;
+       }
+       .card {
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         transition: 0.3s;
+         width: 40%;
+         color: navy;
+       }
+       
+       .card:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       }
+       
+       .container {
+         padding: 2px 16px;
+       }
+     
