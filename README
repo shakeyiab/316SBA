@@ -1,0 +1,22 @@
+#SBA 316: The Document Object Model
+
+ 
+
+# I have created a single page website measuring my understanding of the Document #Object Model (DOM) and my capability to implement its features in a practical manner.
+
+#I have decided to build a iPhone dealer website providing history of iphones, low phone plans and iphone sales
+#strictly iphone usage no andriods round here!
+#upon accessing my website the client can access the nav bar and search for products in the search engine to #the right of the nav bar if they mouse over the submit button they would be able to witness the button change #from submit 
+# the background of my website a gif of iphone immediately under the search bar the 
+#client will see a welcome banner providing more options under and the option to 
+#chose a plan, once the #client choose to choose a plan an alert will generate alerting
+ #the client that they will be leaving this page
+#Starting from the far left hand sid the client can read more info on our internet service, they have the 
+#option of purchasing online or contactings a rep
+#to the right of the internt card is the team iphone card which gives you the evolution of iphones and if you click the checkbox itll print a discount code to use at check out
+# in the middle is a card verifying if your an andriod user, once clicked a message will come up asking if the client wants to stay and confirming we only sale apple products
+#the furthest right card is a mini diagram of a iphone purchase, this is only asking for the gb of desired iphone, a choice is required before submission if client doesnt provide answer then an error message will generate
+https://www.w3schools.com/htmL/html_div.asp
+    
+nav bar https://www.w3schools.com/Css/css_navbar.asp
+required https://www.w3schools.com/jsref/prop_text_required.asp#:~:text=Description.%20The%20required%20property%20sets%20or%20returns%20whether%20a%20text

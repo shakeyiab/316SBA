@@ -14,14 +14,10 @@ let text=[];
 for (let x = 3; x < 7; x++) {
    text += "iphone"  + x + ",  " 
 }
-document.getElementById("evoluntion").innerHTML = text;
+document.getElementById("evolution").innerHTML = text;
 //Use appendChild and/or prepend to add new elements to the DOM.
 //Create at least one element using createElement.
-function myFunction() { 
-const paragraph = document.createElement("p");
-const node = document.createTextNode("Please Wait");
-para.appendChild(node);
-document.getElementById("plansection").appendChild(paragraph);}
+
 
  function secondfunction() {
     let checkBox = document.getElementById("iphonestat");
@@ -59,7 +55,7 @@ document.getElementById("text").style.color="red"
   }
  //Register at least two different event listeners and create the associated event handler functions.
  const action= document.getElementsById("button");
- document.getElementById("button").addEventListener("mousover", myFunction)
+ document.getElementById("button").addEventListener("onmousover", funtionforbtn)
  
  function funtionforbtn() {
     document.getElementById("button").innerHTML = "Please Wait";
@@ -68,9 +64,13 @@ document.getElementById("text").style.color="red"
   function funtionforbtn2() {
     alert("Are You Sure You Want To Leave This Page")
   }
+
+  //Modify at least one attribute of an element in response to user interaction.
+  //Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should 
+    //include event-based validation in addition to the HTML attribute validation.)
   function anotherfunction() {
     document.getElementsByClassName("card").required = true;
     document.getElementById("gbtype").innerHTML = "The checkbox must now be checked before submitting the form.";
   }
-//Modify at least one attribute of an element in response to user interaction.
+
  
