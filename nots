@@ -5,5 +5,17 @@ Iterate over a collection of elements to accomplish some task.
 <h1>history of iphones</h1>
     <p id="demo"></p>
 
-    </div>
+
+
+    {
+        let checkBox = document.getElementById("iphonestat");
+        let text = document.getElementById("text");
+        if (checkBox.checked == true){
+          text.style.display = "block";  
+        } else {
+           text.style.display = "none";
+        document.getElementById("text").style.color="black"
+        }
+    </div>https://www.w3schools.com/htmL/html_div.asp
+    
     vhttps://www.w3schools.com/howto/howto_js_display_checkbox_text.asp#:~:text=var%20text%20=%20document.getElementById(%22text%22);%20//%20If%20the%20checkbox%20is%20checked
